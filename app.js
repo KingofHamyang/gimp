@@ -27,5 +27,5 @@ axios(options)
     console.log(response.body);
 })
 .catch((err) => {
-    console.log("err!")
+    console.log(err.response)
 })
