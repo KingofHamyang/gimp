@@ -7,7 +7,7 @@ COPY package.json /gimp/package.json
 
 RUN npm install --production
 
-COPY . /starter
+COPY . /gimp
 
 CMD ["npm","start"]
 
