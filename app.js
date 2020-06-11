@@ -24,7 +24,7 @@ const options = {
 }
 axios(options)
 .then((response) => {
-    console.log(response.body);
+    console.log(response);
 })
 .catch((err) => {
     console.log(err.response)
