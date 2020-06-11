@@ -14,7 +14,7 @@ const payload = {
   nonce: uuidv4(),
 };
 
-const jwtToken = jwt.sign(payload, upbit_access_key);
+const jwtToken = jwt.sign(payload, upbit_secret_key);
 const authorizationToken = `Bearer ${jwtToken}`;
 
 const options = {
